@@ -23,7 +23,7 @@ const Navbar = ({setShowLogin}) => {
             <img src={assets.search_icon} alt="" className="w-6 max-sm:w-4"/>
             <div className="relative">
                <Link  to='/cart'> <img src={assets.basket_icon} alt="" className="w-6 max-sm:w-4"/> </Link> 
-                <div className={getTotalCartAmount()===0?"":"dot"}></div>
+                <div className={getTotalCartAmount()===0?"":"absolute min-w-3 min-h-3 bg-orange-400 rounded-3xl bottom-6 left-4 max-sm:min-h-2 max-sm:min-w-2 max-sm:bottom-3"}></div>
             </div>
             <button onClick={()=>setShowLogin(true)} className=" bg-transparent text-sm text-slate-600 border-2 border-orange-600 py-2 px-2  rounded-3xl cursor-pointer transition-transform hover:bg-red-50 max-sm:text-xs max-sm:w-20 max-sm:py-1 max-sm:px-2">Inicia Sesión</button>
         </div>
