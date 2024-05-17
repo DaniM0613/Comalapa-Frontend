@@ -86,7 +86,7 @@ export const assets = {
 
 export const restaurant_list = [
     {
-        restaurant_name: "Very Utz'",
+        restaurant_name: "Very Utz",
         restaurant_image: restaurant_1
     },
     {
